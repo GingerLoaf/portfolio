@@ -1,10 +1,11 @@
 import React from "react";
 import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
+import { faBriefcase, faGamepad, faEarthAmericas, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import '../assets/styles/Timeline.scss'
+import { ListItem } from "@mui/material";
 
 function Timeline() {
   return (
@@ -16,50 +17,87 @@ function Timeline() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="2022 - present"
+            date="2018-2026"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
+            icon={<FontAwesomeIcon icon={faGamepad} />}
           >
-            <h3 className="vertical-timeline-element-title">Technology Consultant</h3>
-            <h4 className="vertical-timeline-element-subtitle">Dallas, TX</h4>
+            <h3 className="vertical-timeline-element-title">Staff Engineer</h3>
+            <h4 className="vertical-timeline-element-subtitle">WaveXR</h4>
             <p>
-              Full-stack Web Development, GenAI/LLM, Project Management, Business Development
+              Full-stack cross-functional engineering.
+              Team leadership and mentorship.
+              Tool and build pipeline engineering.
+              Implemented robust delta compression system for live netcode.
+              Created tools for broadcasting shows and tracking motion capture technologies.
+              Created VR test/scripting solution called "mannequin" that could take control of the headset and drive real movement using scripts for automated and repeatable testing.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2022"
+            contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
+            contentArrowStyle={{ borderRight: '7px solid  white' }}
+            date="2016-2018"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
+            icon={<FontAwesomeIcon icon={faGamepad} />}
           >
-            <h3 className="vertical-timeline-element-title">Full Stack Engineer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Software Engineer</h3>
+            <h4 className="vertical-timeline-element-subtitle">WaveXR</h4>
             <p>
-              Frontend Development, Backend Development, User Experience, Team Leading
+              Full-stack engineering.
+              Team leadership and mentorship.
+              Tool and build pipeline engineering.
+              Built toolkit for assembling and performing live shows.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2021 - 2021"
+            date="2014-2016"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
+            icon={<FontAwesomeIcon icon={faGamepad} />}
           >
-            <h3 className="vertical-timeline-element-title">Staff Engineer Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Software Engineer / Game Designer</h3>
+            <h4 className="vertical-timeline-element-subtitle">Portalarium</h4>
             <p>
-              Full-stack Development, API Development, User Experience
+              Worked on and designed new features for gathering, crafting, loot, internationalization, decorations, and multiplayer netcode.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2020"
+            date="2009-2014"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
+            icon={<FontAwesomeIcon icon={faEarthAmericas} />}
           >
-            <h3 className="vertical-timeline-element-title">Data Analyst Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Tokyo, Japan</h4>
+            <h3 className="vertical-timeline-element-title">Software Engineer</h3>
+            <h4 className="vertical-timeline-element-subtitle">General Web Constracting</h4>
             <p>
-              Automation, Data Governance, Statistical Analysis
+              Contracted in the Austin TX area at RED Method, AppHustle, W2O Group, and Data Management Inc.
+              Frontend design and implementation, React, MongoDB, TDD.
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="2009-2012"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faEarthAmericas} />}
+          >
+            <h3 className="vertical-timeline-element-title">Sofware Engineer</h3>
+            <h4 className="vertical-timeline-element-subtitle">Data Management, Inc.</h4>
+            <p>
+              Worked on frontend for web apps.
+              Owned and designed frontend for scheduler web app.
+              Owned and designed frontend for iOS app. Practiced clean coding and test driven development practices.
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="2007-2009"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faPhone} />}
+          >
+            <h3 className="vertical-timeline-element-title">Support Technician</h3>
+            <h4 className="vertical-timeline-element-subtitle">Data Management, Inc.</h4>
+            <p>
+              Customer assistance over the phone, created tools to help technicians troubleshoot more accurately.
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
