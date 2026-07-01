@@ -1,40 +1,8 @@
 import React from "react";
 import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faReact, faDocker, faPython } from '@fortawesome/free-brands-svg-icons';
-import Chip from '@mui/material/Chip';
+import { faGamepad, faStar, faUserAstronaut } from '@fortawesome/free-solid-svg-icons';
 import '../assets/styles/Expertise.scss';
-
-const labelsFirst = [
-    "Unity Engine",
-    "Unreal Engine (5.4+)",
-    "C#",
-    "C++",
-    "Amazon AWS",
-    "Docker"
-];
-
-const labelsSecond = [
-    "Git",
-    "GitHub Actions",
-    "Docker",
-    "AWS",
-    "Azure",
-    "Linux",
-    "Snowflake",
-    "Pandas",
-    "Selenium",
-];
-
-const labelsThird = [
-    "OpenAI",
-    "Groq",
-    "LangChain",
-    "Qdrant",
-    "Hugging Face",
-    "LlamaIndex",
-    "Streamlit",
-];
 
 function Expertise() {
     return (
@@ -43,39 +11,30 @@ function Expertise() {
             <h1>Expertise</h1>
             <div className="skills-grid">
                 <div className="skill">
-                    <FontAwesomeIcon icon={faReact} size="3x"/>
-                    <h3>Cross Functional Engineering</h3>
-                    <p>17 years of professional experience and counting. I am able to work with other departments and displiplines to ship difficult changes that require coordination. I have the ability to ship features from end to end in almost every discipline and have demostrated the ability to understand the different needs of each department in order to help coordinate work.</p>
-                    <div className="flex-chips">
-                        <span className="chip-title">Tech stack:</span>
-                        {labelsFirst.map((label, index) => (
-                            <Chip key={index} className='chip' label={label} />
-                        ))}
-                    </div>
+                    <FontAwesomeIcon icon={faGamepad} size="3x"/>
+                    <h3>Cross Functional Game Dev</h3>
+                    <p>
+                        I bring a hybrid skill set that spans individual contributor coding, technical leadership, cross-team project planning, and Agile process management, having guided teams of up to 10 engineers through full feature cycles while conducting code reviews and providing ongoing mentorship. 
+                    </p>
                 </div>
 
                 <div className="skill">
-                    <FontAwesomeIcon icon={faDocker} size="3x"/>
-                    <h3>Quality & Iteration</h3>
-                    <p>Integration doesn't stop at submission time. I have experience building tools to help observe statistics, test status, and performance analysis and can automate their collection and reporting using backend tools or CI-connected pipelines. The team just iterates, and the reports help everyone understand when we are backsliding or making valuable progress.</p>
-                    <div className="flex-chips">
-                        <span className="chip-title">Tech stack:</span>
-                        {labelsSecond.map((label, index) => (
-                            <Chip key={index} className='chip' label={label} />
-                        ))}
-                    </div>
+                    <FontAwesomeIcon icon={faStar} size="3x"/>
+                    <h3>Iteration & Quality</h3>
+                    <p>
+                        I care about the quality of the product, and I want the team focused on moving forward with both speed and quality.
+                        I am deeply motivated to build tools and processes that help everyone stay on top of performance, avoid regressions, and build new features.
+                        I have a love for test driven practices and automated testing that can happen overnight or per submit.
+                    </p>
                 </div>
 
                 <div className="skill">
-                    <FontAwesomeIcon icon={faPython} size="3x"/>
-                    <h3>GenAI & LLM</h3>
-                    <p></p>
-                    <div className="flex-chips">
-                        <span className="chip-title">Tech stack:</span>
-                        {labelsThird.map((label, index) => (
-                            <Chip key={index} className='chip' label={label} />
-                        ))}
-                    </div>
+                    <FontAwesomeIcon icon={faUserAstronaut} size="3x"/>
+                    <h3>Culture & Clarity</h3>
+                    <p>
+                        I am a fan of keeping the team coordinated and reducing redundancy & misinformation wherever possible.
+                        I bring a unique culture to my teams where I try to facilitate bonding, sharing, and growth using open and honest communication. I love hosting my own prototyping or sharing/learning sessions to help the team share or experiment in a safe space.
+                    </p>
                 </div>
             </div>
         </div>

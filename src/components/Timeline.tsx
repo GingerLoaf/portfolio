@@ -1,7 +1,7 @@
 import React from "react";
 import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBriefcase, faGamepad, faEarthAmericas, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faGamepad, faEarthAmericas, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import '../assets/styles/Timeline.scss'
@@ -17,8 +17,8 @@ function Timeline() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="2018-2026"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            date="2018-2026 (8 yrs)"
+            iconStyle={{ background: '#00ca40', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faGamepad} />}
           >
             <h3 className="vertical-timeline-element-title">Staff Engineer</h3>
@@ -36,8 +36,8 @@ function Timeline() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="2016-2018"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            date="2016-2018 (2 yrs)"
+            iconStyle={{ background: '#00ca40', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faGamepad} />}
           >
             <h3 className="vertical-timeline-element-title">Software Engineer</h3>
@@ -51,8 +51,8 @@ function Timeline() {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2014-2016"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            date="2014-2016 (2 yrs)"
+            iconStyle={{ background: '#00ca40', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faGamepad} />}
           >
             <h3 className="vertical-timeline-element-title">Software Engineer / Game Designer</h3>
@@ -63,8 +63,8 @@ function Timeline() {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2009-2014"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            date="2009-2014 (5 yrs)"
+            iconStyle={{ background: '#0083ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faEarthAmericas} />}
           >
             <h3 className="vertical-timeline-element-title">Software Engineer</h3>
@@ -76,8 +76,8 @@ function Timeline() {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2009-2012"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            date="2009-2012 (3 yrs)"
+            iconStyle={{ background: '#0083ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faEarthAmericas} />}
           >
             <h3 className="vertical-timeline-element-title">Sofware Engineer</h3>
@@ -90,8 +90,8 @@ function Timeline() {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2007-2009"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            date="2007-2009 (2 yrs)"
+            iconStyle={{ background: '#ca00c7', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faPhone} />}
           >
             <h3 className="vertical-timeline-element-title">Support Technician</h3>
